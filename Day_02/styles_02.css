@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rosybrown;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+article {
+  border-radius: 25px;
+  background-color: #fffaf2;
+  width: 1051px;
+  height: 456;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-info {
+  padding: 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* flex: 1 0 350; */
+}
+
+.sub-info {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 90px;
+  padding: 42px;
+  /* align-self: flex-end; */
+  align-items: flex-end !important;
+  /* height: 100%; */
+  align-self: stretch;
+}
+
+.fourK {
+  font-size: 24px;
+  margin-bottom: 14px;
+  text-align: right;
+}
+
+.Organizations_6_8 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 39px;
+}
+
+.profile-details h1 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.button {
+  width: 191px;
+  height: 56px;
+  background: #13143c;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+}
+
+.Social-footprint {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* gap: 100px; */
+}
+
+.Social-footprint div:first-child {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.Social-footprint div:nth-child(2) {
+  align-self: flex-end;
+  font-size: 24px;
+}
+
+.progressbar_parent {
+  background-color: #dfdfdf;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.progressbar_child {
+  background-color: rgb(253, 159, 65);
+  border-radius: 10px;
+  width: 80%;
+  height: 15px;
+}
+
+.about-profile p:first-child {
+  margin-bottom: 8px;
+}
+
+.back-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.F_button {
+  width: 191px;
+  height: 56px;
+  background: #13143c;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+}
