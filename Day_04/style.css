@@ -1,6 +1,6 @@
 @font-face {
   font-family: webfont;
-  src: url(/assets/fonts/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2);
+  src: url(/Day_05/assets/fonts/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2);
 }
 
 * {
@@ -178,4 +178,11 @@ li {
     font-size: 0.6em;
     padding: 0 0.5em 0 0.5em;
   }
+}
+
+.back-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #1cb495;
 }
